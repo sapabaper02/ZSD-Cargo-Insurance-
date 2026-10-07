@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination for Insurance'
+define service ZSD_INSURANCE_REPORT {
+  expose zc_insurance_report;
+}

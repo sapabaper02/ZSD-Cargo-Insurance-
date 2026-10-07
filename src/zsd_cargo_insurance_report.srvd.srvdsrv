@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination for Cargo Insurance'
+define service ZSD_CARGO_INSURANCE_REPORT {
+  expose ZC_CARGO_INSURANCE_REPORT;
+}

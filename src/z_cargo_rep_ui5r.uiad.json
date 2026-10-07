@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Cargo Insurance Report",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Cargo Insurance Report"
+  },
+  "ui5AppDetails": {
+    "appId": "zcargoinsurancerep"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_571E30CF602168401DABFC486975A5EC829A4CEA_TM",
+    "semanticObject": "cargoInsurance",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_571E30CF602168401DABFC486975A5EC829A4CEA_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Cargo Insurance Report"
+      }
+    }
+  ]
+}

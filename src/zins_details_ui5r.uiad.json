@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Insurance Details App",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Insurance Details App"
+  },
+  "ui5AppDetails": {
+    "appId": "zinsurancedetails"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_047CB9772B276846567F4F87F2AE93D59AD000DD_TM",
+    "semanticObject": "z_insurance_details",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_047CB9772B276846567F4F87F2AE93D59AD000DD_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Insurance Details App"
+      }
+    }
+  ]
+}

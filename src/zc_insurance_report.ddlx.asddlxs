@@ -1,0 +1,58 @@
+@Metadata.layer: #CORE
+@UI: {
+    headerInfo: { typeName: 'Insurance',
+                typeNamePlural: 'Insurances',
+                title: { type: #STANDARD, label: 'Insurance', value: 'Companycode' } }
+}
+
+annotate entity zc_insurance_report
+    with 
+{
+  @UI.facet: [ { id:       'Insurance',
+          purpose:         #STANDARD,
+          type:            #IDENTIFICATION_REFERENCE,
+          label:           'Insurance Details',
+          position:        10 }
+         ]
+  @EndUserText.label: 'Company Code'
+  @Consumption.valueHelpDefinition: [{ entity: {
+          name: 'I_CompanyCode',
+          element: 'CompanyCode'
+      } }]
+      
+    @UI: {  lineItem:       [ { position: 10 } ],
+     identification: [ { position: 10 } ]
+   }
+    Companycode;
+    @UI: {  lineItem:       [ { position: 20 } ],
+     identification: [ { position: 20 } ]
+   }
+   @EndUserText.label: 'From Date'
+    Fromdate;
+    @UI: {  lineItem:       [ { position: 30 } ],
+     identification: [ { position: 30 } ]
+   }
+  @EndUserText.label: 'To Date'
+    Todate;
+    @UI: {  lineItem:       [ { position: 40 } ],
+     identification: [ { position: 40 } ]
+   }
+  @EndUserText.label: 'Policy No'
+    Policyno;
+    @UI: {  lineItem:       [ { position: 50 } ],
+     identification: [ { position: 50 } ]
+   }
+  @EndUserText.label: 'Sum Assured'
+    Sumassured;
+//    @UI: {  lineItem:       [ { position: 60 } ],
+//     identification: [ { position: 60 } ]
+//   }
+@Consumption.valueHelpDefinition: [{ entity: {
+          name: 'I_Currency',
+          element: 'Currency'
+      } }]
+  @EndUserText.label: 'Currency'
+//  @UI.hidden: true
+    Currency;
+    
+}
